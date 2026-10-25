@@ -56,9 +56,10 @@ CodeCraftHub provides a clean, beginner-friendly REST API for managing developer
 
 ```text
 codecrafthub/
+├── index.html      # Single-file LMS dashboard (Vanilla JS & CSS)
 ├── app.js          # Main Express server and route handlers
 ├── package.json    # Project metadata, dependencies, and start script
-├── README.md       # API documentation and usage guide
+├── README.md       # API & Dashboard documentation
 ├── .gitignore      # Ignores node_modules
 └── courses.json    # Auto-created data storage file
 ```
